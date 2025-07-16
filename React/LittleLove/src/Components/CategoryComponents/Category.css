@@ -1,0 +1,21 @@
+.category-banner {
+  width: 100vw; 
+  position: relative; 
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  max-height: 400px;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
+}
+
+.category-info {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.category-display {
+  margin-top: 2rem;
+}

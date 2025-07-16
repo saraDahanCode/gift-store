@@ -1,0 +1,49 @@
+/* בסיס כללי */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  direction: rtl;
+  text-align: right;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+    overflow-x: hidden;
+
+}
+
+/* שורש האפליקציה */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* אזור התוכן */
+main.content {
+
+  flex: 1;
+
+  box-sizing: border-box;
+  /* max-width: 1200px; */
+  /* background-color: black; */
+  /* display: flex; */
+  flex-direction: column;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+/* .centered-box {
+  max-width: 800px;
+  width: 100%;
+}
+ */
+

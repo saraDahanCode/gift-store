@@ -1,0 +1,55 @@
+
+ .footer {
+  width: 100vw;
+  background-color: #f5f5f5;
+  /* background-color:  #c1baad9e; */
+  
+
+  padding: 40px 20px;
+  direction: rtl;
+  box-sizing: border-box; /* שינויים נוספים */
+}
+
+.footer-column {
+  flex: 1 1 200px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #007acc;
+}
+.footer-container {
+  display: flex;
+  justify-content: flex-start; /* העמודות מתחילות מימין */
+  padding: 0 10px; /* רווח קטן יותר משני הצדדים */
+  width: 100%;
+}
+
+.footer-section {
+  margin-right: 10px; /* רווח קטן יותר בין העמודות */
+}
+
+
+/* פוטר – תמיד נדחק לתחתית */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0 -1px 2px rgba(0,0,0,0.1);
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+.env
+.env.*
+
+# React
+client/node_modules/
+client/.env
+client/.env.*
+
+# Build
+/build
+/dist
+client/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor settings
+.DS_Store
+.idea/
+.vscode/
+
+# Coverage
+coverage/
+
+# OS
+Thumbs.db

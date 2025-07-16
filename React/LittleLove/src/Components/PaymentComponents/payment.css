@@ -1,0 +1,55 @@
+/* עיצוב כללי לשדות */
+input {
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width:50%;
+  }
+  
+  /* עיצוב לשדות עם שגיאה */
+  input.error {
+    border: 3px solid red;  /* הופך את הגבול לאדום */
+    background-color: #ffffff; /* רקע עדין בצבע אדום */
+  }
+  
+  /* עיצוב לפסקה שצמודה לשדה עם שגיאה */
+  p {
+    font-size: 12px;
+  }
+  .form {
+    margin-bottom: 10px;
+    padding: 10px;
+    width:650px;
+    
+    /* box-sizing: border-box; */
+    border-radius: 10px;
+    border-color: #bfbdbd;
+    border-style: solid;
+    
+  }
+
+  select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+    font-family: inherit;
+    color: #333;
+    appearance: none; /* מסיר את החץ המוגדר ברירת מחדל */
+    background-color: #f9f9f9;
+    background-image: linear-gradient(45deg, transparent 50%, #ccc 50%), linear-gradient(135deg, #ccc 50%, transparent 50%);
+    background-position: right 10px center, right 8px center;
+    background-size: 8px 8px, 8px 8px;
+    background-repeat: no-repeat;
+  }
+  
+  select:focus {
+    border-color: #999;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(153, 153, 153, 0.2);
+  }
+  
+
+  
